@@ -1,5 +1,8 @@
 # Ruby on Rails Tutorial sample application
 
+[![Build Status](https://travis-ci.org/gustavosobral/rails_tutorial.svg?branch=master)](https://travis-ci.org/gustavosobral/rails_tutorial) [![Coverage Status](https://coveralls.io/repos/github/gustavosobral/rails_tutorial/badge.svg?branch=master)](https://coveralls.io/github/gustavosobral/rails_tutorial?branch=master)
+
+
 This is the sample application for [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
