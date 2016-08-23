@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.2.5
+  
+cache: 
+  - bundler
+  - apt
+
+git:
+  depth: 3
+
+bundler_args: --without production
