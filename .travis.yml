@@ -2,11 +2,10 @@ language: ruby
 rvm:
   - 2.2.5
   
+install:
+  - bundle install --without production
+  - rails db:migrate
+
 cache: 
   - bundler
   - apt
-
-git:
-  depth: 3
-
-bundler_args: --without production
