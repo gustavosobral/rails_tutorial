@@ -12,6 +12,8 @@ class ActiveSupport::TestCase
   fixtures :all
 
   include ApplicationHelper
+
+  Time.zone = ActiveSupport::TimeZone.all.sample
   
   # Returns true if a test user is logged in.
   def is_logged_in?
