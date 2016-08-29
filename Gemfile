@@ -19,6 +19,12 @@ group :development, :test do
   gem 'sqlite3',  '1.3.11'
   gem 'byebug',   '9.0.0', platform: :mri
   gem 'coveralls', require: false
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
+  gem 'awesome_print',          '1.6.1'
 end
 
 group :development do

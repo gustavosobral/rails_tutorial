@@ -17,8 +17,9 @@
 !/log/.keep
 !/tmp/.keep
 
-# Ignore Byebug command history file.
+# Ignore Byebug and pry-rescue files.
 .byebug_history
+er
 
 # Ignore RubyMine files.
 .idea/
